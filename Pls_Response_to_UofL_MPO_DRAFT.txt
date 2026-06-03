@@ -1,0 +1,645 @@
+NO. 25-CI-002964                              JEFFERSON CIRCUIT COURT
+                                              DIVISION FOUR (4)
+                                              JUDGE JULIE KAELIN
+
+ELECTRONICALLY FILED
+
+CHARLIE TINKER, Individually and as Executor
+of the ESTATE OF THELMA TINKER, Deceased,
+and DENISE HOUCK, MONICA RUSSELL, BRIAN
+TINKER, AND CHERI KALILIKANI, Each Individually        PLAINTIFFS
+
+v.
+
+UofL HEALTH–LOUISVILLE, INC. d/b/a UofL HEALTH;
+UNIVERSITY OF LOUISVILLE PHYSICIANS, INC.;
+ERICA GETTIS, D.O.; ROBERT ARIA, M.D.; and
+UofL HEALTH, INC.                                     DEFENDANTS
+
+                               * * * * * *
+
+         PLAINTIFFS' RESPONSE TO UofL DEFENDANTS' MOTION FOR
+                           PROTECTIVE ORDER
+
+       Plaintiffs, by counsel, respectfully submit this Response in opposition to the
+
+Motion for Protective Order filed by Defendants UofL Health-Louisville, Inc.,
+
+University of Louisville Physicians, Inc., and UofL Health, Inc. (collectively, "UofL
+
+Defendants"). For the reasons set forth below, the UofL Defendants' Motion should
+
+be denied in its entirety.
+
+                                   INTRODUCTION
+
+       Thelma "Timmi" Tinker underwent a PET scan on August 15, 2022. The results
+
+showed findings indicative of potential pulmonary malignancy. Almost two years
+
+later—in May 2024—Timmi learned for the first time that her PET scan had ever
+
+reflected anything alarming. She is now dead.
+
+       At the center of this case is a simple but devastating question: what happened
+
+to that PET scan result? Who, if anyone, actually reviewed it? Was it ever
+
+communicated to Timmi? Did anyone acknowledge it, and if so, how? Did the
+
+"acknowledgment" in UofL's Epic EHR system require an actual human being to open
+
+and read the result—or could it have been triggered automatically or by accident?
+
+Was Timmi's electronic record accessed and examined—perhaps by someone
+
+attempting to understand what had happened before the family began asking
+
+questions? What does the produced audit data actually mean, and what critical fields
+
+are missing from what UofL was compelled by court order to produce?
+
+       These questions are not abstract. They can only be answered by someone with
+
+knowledge of how UofL's specific EHR systems work—their configuration, their audit
+
+trails, their notification and acknowledgment logic—in the context of Timmi's actual
+
+records. That is precisely what Plaintiffs' CR 30.02(6) Notice seeks.
+
+       Rather than participating in this discovery, UofL has moved for a protective
+
+order. It ignores months of stonewalling that required Plaintiffs to move to compel
+
+and obtain a court order. It ignores that UofL scrambled to produce records at 3:50
+
+p.m. on the deadline day—10 minutes before the court-ordered 4:00 p.m. cutoff—and
+
+that what UofL produced omits the very audit data fields that would answer the key
+
+questions in this case. And it ignores that the audit data UofL has produced contains
+
+entries that raise serious questions requiring live system explanation.
+
+       UofL's motion is an attempt to evade thorough and proper discovery in a case
+
+involving a woman's preventable death. The Motion should be denied.
+
+                               FACTUAL BACKGROUND
+
+       On April 13, 2026, Plaintiffs served detailed interrogatories and requests for
+
+production focused squarely on the August 15, 2022 PET CT scan result: who
+
+accessed it in the EMR, how it was routed through Epic's In-Basket system, how the
+
+"acknowledged" function works, what the MyChart audit trail shows, and whether
+
+there is any record of the result ever being communicated to Timmi. UofL's responses
+
+were due May 13, 2026. UofL did not respond.
+
+       After multiple unsuccessful follow-up communications, Plaintiffs were forced
+
+to file a motion to compel on May 21, 2026. The Court granted that motion on May
+
+26, 2026, ordering UofL to "fully and completely respond to this discovery by 4:00
+
+p.m. on Friday, May 29, 2026."
+
+       At 3:50 p.m. on May 29—ten minutes before the court-ordered deadline—UofL
+
+produced its response. The production included seven documents: internal Epic
+
+workflow guides and tip sheets, and Timmi's MyChart messages. What UofL did not
+
+produce: the EMR audit trails showing who accessed the PET scan result and when,
+
+the MyChart audit log showing patient-side interactions with the scan result, the
+
+In-Basket data, the PACS migration data, the IP address data, the patient
+
+notification records, the record-specific access logs, and the print-related details—
+
+the very records that are the subject of Plaintiffs' interrogatories and the
+
+cornerstone of any meaningful forensic understanding of what happened to Timmi's
+
+scan result.
+
+       Two days after that deficient production, and with those critical gaps
+
+unaddressed, UofL filed the present Motion for Protective Order seeking to prevent
+
+Plaintiffs from exploring those exact gaps through a duly noticed CR 30.02(6)
+
+deposition.
+
+                                      ARGUMENT
+
+       CR 26.03 authorizes a protective order only where "justice requires to protect
+
+a party from annoyance, embarrassment, oppression, or undue burden or expense."
+
+The party seeking protection bears the burden of showing good cause. Morrow v.
+
+Brown, Todd & Heyburn, 957 S.W.2d 722, 724 (Ky. App. 1997). UofL has not met
+
+and cannot meet that burden.
+
+I.     PLAINTIFFS' CR 30.02(6) NOTICE DESCRIBES THE TOPICS WITH
+       REASONABLE PARTICULARITY.
+
+       CR 30.02(6) requires that a corporate representative notice "describe with
+
+reasonable particularity the matters on which examination is requested." UofL argues
+
+that the Notice fails this standard. The argument is wrong.
+
+       Plaintiffs' Notice identifies eighteen topics, each of which is directed to one
+
+or more specific systems (PACS, MyChart/Epic, In-Basket), one or more specific
+
+events or time periods (the August 15, 2022 PET scan and its routing), one or more
+
+specific functions (acknowledgment, release to patient, print), and specific persons
+
+(Dr. Gettis, Dr. Aria, Timmi). Every topic traces back to the same central inquiry:
+
+how did UofL's EHR systems handle this particular scan result for this particular
+
+patient, and what does the audit data tell us about what happened? That is not a
+
+"boundless" inquiry. It is a focused, technically complex one.
+
+       "Reasonable particularity" does not mean surgical precision. It means
+
+sufficient description to enable the corporation to identify and prepare the
+
+appropriate witness(es). See, e.g., Reed v. Bennett, 312 F.3d 1190, 1196 (10th Cir.
+
+2002) (topics must be adequate to "apprise the corporation of the areas in which the
+
+witness is expected to testify"). Plaintiffs' Notice more than satisfies that standard:
+
+each topic is described in detail, supported by defined terms in Appendix A, and
+
+accompanied by explanatory footnotes identifying relevant systems (e.g., footnotes 3
+
+and 4 explaining PACS).
+
+       UofL's objection to the "catchall" provision—the statement that "the
+
+deposition may cover any topics within the general knowledge of the designee(s), not
+
+limited to the above-specific items"—is misplaced. That language does not transform
+
+the deposition into an unlimited inquiry. It is standard advisory language alerting
+
+the designee to be prepared. UofL's counsel may object at the deposition to any
+
+question that strays beyond the noticed topics. The proper mechanism for policing
+
+scope is an objection at the deposition, not a pre-emptive protective order that blocks
+
+the deposition entirely or narrows all eighteen topics before UofL has even identified
+
+its designees.
+
+II.    THE NOTICED TOPICS APPROPRIATELY SEEK UofL'S CORPORATE
+       FACTUAL KNOWLEDGE AND INSTITUTIONAL POSITIONS.
+
+       UofL objects that Topics 2, 3, 4, 11, and 14 "improperly seek legal conclusions
+
+and privileged information." This characterization misstates both what the topics
+
+ask and what CR 30.02(6) permits.
+
+       A.     Topics 2, 3, and 4 seek UofL's corporate positions on its own
+              employees' responsibilities and on any comparative fault defense
+              it intends to assert.
+
+       Topic 2 asks whether UofL admits that Dr. Gettis—its own employee and
+
+agent—had a responsibility to communicate the PET scan result to Timmi. UofL is
+
+not merely a passive observer of this litigation. It has answered the complaint and
+
+presumably has taken, or will take, institutional positions about whether its
+
+physician had an obligation to communicate critical diagnostic results. Topic 2 asks
+
+what that position is. That is exactly the kind of information a corporate
+
+representative deposition is designed to elicit. A corporation must be able to testify
+
+about the knowledge "reasonably available to the organization." CR 30.02(6).
+
+       Topics 3 and 4 ask whether UofL contends that Timmi had an "established
+
+standard of care" or "duty" with respect to using MyChart, being aware of test
+
+results, and understanding clinical findings. These are not abstract legal theory
+
+questions posed to the corporation as legal expert. They directly reflect defenses UofL
+
+may assert: comparative fault, contributory negligence, or assumption of risk. If UofL
+
+intends to argue to the jury that Timmi Tinker bore some responsibility for her own
+
+delayed diagnosis because she had access to MyChart and could have seen her own
+
+scan results, then UofL's corporate position on those topics is exactly what Plaintiffs
+
+need to explore and what the corporate designee must be prepared to address.
+
+       B.     Topics 11 and 14 go to core disputed facts about which UofL
+              must have, and commit to, a corporate position.
+
+       Topic 11 asks whether UofL contends that Dr. Gettis actually read the August
+
+15, 2022 PET scan report, and if so, when and with what support. Topic 14 asks
+
+whether UofL contends that Dr. Aria had a responsibility to communicate the results
+
+further than he did. These are among the most critical factual questions in this case.
+
+       Courts have routinely recognized that 30(b)(6)-equivalent depositions may
+
+include "contention topics" that ask the corporation to commit to its factual
+
+positions. See, e.g., Brazos River Auth. v. GE Ionics, Inc., 469 F.3d 416, 432–34 (5th
+
+Cir. 2006) (contention topics are permissible; 30(b)(6) designees must be prepared to
+
+testify about the company's position). Asking whether UofL "contends" that Dr.
+
+Gettis read the report is not asking for a legal conclusion—it is asking whether UofL,
+
+as an institution, has any evidentiary basis for the position that its physician
+
+reviewed this patient's critical scan result. If UofL has no document and no witness
+
+who can testify to that fact, then it should say so. If it does, it must identify the
+
+document and commit to the position.
+
+       None of these topics invades attorney-client privilege. They ask about
+
+institutional facts and corporate positions—not about what lawyers told clients or
+
+what litigation strategy has been devised. To the extent any specific question at the
+
+deposition intrudes on privilege, UofL's counsel may assert that objection then.
+
+III.   UofL'S PROCEDURAL CHALLENGE TO THE CR 34 INSPECTION
+       REQUEST IGNORES THE PLAIN TEXT OF CR 30.02(5) AND THE
+       REALITIES OF THIS CASE.
+
+       A.     CR 30.02(5) expressly permits accompanying inspection requests.
+
+       UofL argues that Plaintiffs violated CR 34.02's 30-day response period by
+
+including an inspection request in a deposition notice. This argument conflates two
+
+different mechanisms.
+
+       CR 30.02(5) states plainly that a deposition notice "may be accompanied by a
+
+request made in compliance with Rule 34 for the production of documents and
+
+tangible things at the taking of the deposition. The procedure of Rule 34.02 shall
+
+apply to the request." CR 30.02(5) (emphasis added). The plain meaning of this
+
+provision is that the inspection or production occurs "at the taking of the deposition"—
+
+not 30 days later. The 30-day period in CR 34.02(2) governs written responses to
+
+standalone requests. When a CR 34 request is coupled with a deposition notice under
+
+CR 30.02(5), the production or inspection takes place at the deposition.
+
+       This reading is consistent with the structure of both rules. CR 34.02 requires
+
+a party to "serve a written response within 30 days"—meaning the responding party
+
+has 30 days to state its objections in writing. Nothing in CR 34.02(2) requires that
+
+the actual inspection be deferred until 30 days after service of the request; it requires
+
+written objections within 30 days. UofL is free to have served those written
+
+objections—and it did, by filing this motion—but the filing of a protective order
+
+motion does not establish that the inspection itself is improper.
+
+       In any event, the notice expressly offered to adjust the June 4 date. Had
+
+UofL's counsel promptly contacted Plaintiffs' counsel upon receiving the Notice—
+
+rather than waiting six days to file a motion for protective order—the parties could
+
+have selected a mutually agreeable date well within any 30-day period.
+
+       B.     UofL's incomplete production under court order makes the live
+              inspection necessary.
+
+       Even if there were some procedural question about the timing of an inspection
+
+request, it is rendered academic by UofL's deficient production. UofL was ordered to
+
+"fully and completely respond" to Plaintiffs' 4/13/2026 discovery by May 29, 2026.
+
+That discovery specifically requested:
+
+       •      the complete EMR audit trails for Dr. Gettis from July 2022 through
+              May 2024 (Request No. 1);
+       •      the complete MyChart patient portal audit trail log for Timmi's account
+              (Request No. 2);
+       •      all documents showing the state and contents of Dr. Gettis's In-Basket
+              from August 15, 2022 through April 24, 2024 (Request No. 3);
+       •      screenshots or system-generated images of Dr. Gettis's inbox on the
+              date the PET scan result was received and when it was acknowledged
+              (Request No. 4); and
+       •      all technical documentation describing how Epic's acknowledgment
+              function works (Request No. 5).
+
+       None of that was produced. Instead, UofL produced seven documents, most of
+
+which are generic Epic workflow tip sheets publicly available to any Epic user. The
+
+audit data that has been produced contains suspicious access patterns—including
+
+what appears to be numerous entries accessing Timmi's MyChart records under the
+
+designation "MyChart" around critical time periods—but the produced data omits IP
+
+addresses, patient notification records, record-specific logging, URLs, print detail
+
+fields, and In-Basket audit data. These are not marginal or exotic data fields. They
+
+are the fields that would reveal whether anyone actually read Timmi's PET scan
+
+result, whether the patient was ever notified of the result, and what exactly happened
+
+in that system between August 2022 and the first time anyone told Timmi her scan
+
+showed something alarming.
+
+       Plaintiffs do not seek unrestricted access to UofL's systems out of curiosity.
+
+Plaintiffs seek to understand the audit data UofL has produced—data that raises
+
+more questions than it answers—and to fill the gaps in what UofL failed to produce
+
+despite a court order directing full compliance. That is a far cry from the "mere
+
+suspicion" and "speculation" that courts have found insufficient to justify inspection.
+
+Cf. Scotts Co. LLC v. Liberty Mut. Ins. Co., 2007 WL 1723509, at *2 (S.D. Ohio June
+
+12, 2007).
+
+IV.    THE LIVE INSPECTION IS APPROPRIATE, LIMITED IN SCOPE, AND
+       CAN BE CONDUCTED WITH ADEQUATE SAFEGUARDS.
+
+       A.     The functioning of UofL's EHR system—not just the data it
+              stored—is directly at issue in this case.
+
+       The Sedona Principles, which UofL itself cites, acknowledge that live
+
+inspection is appropriate where "there is a substantial need to discover information
+
+about the computer system and programs used (as opposed to the data stored on that
+
+system)." The Sedona Principles, Third Edition, 19 Sedona Conf. J. 1, at Comment
+
+6.d. (2018). This is precisely such a case.
+
+       What does it mean in Epic's In-Basket system for a result to be
+
+"acknowledged"? Can a result be "acknowledged" without the provider ever opening
+
+it? Does the acknowledgment function in Epic automatically trigger the release of
+
+results to MyChart, regardless of whether the provider has reviewed them? Do
+
+entries in the audit log distinguish between a provider who opened a result and read
+
+it versus one who bulk-acknowledged a queue? These are questions about how the
+
+system itself functions—not just what data it stored. The only way to answer them is
+
+to see the live system and walk through the workflow with a designee who knows it.
+
+       UofL's argument that "those matters may be explored through targeted written
+
+discovery requests" rings hollow. Plaintiffs served exactly that targeted written
+
+discovery on April 13, 2026. UofL failed to respond to it for over a month. The Court
+
+had to order compliance. Even then, UofL's production was incomplete. Written
+
+discovery has proven inadequate. A live demonstration of the system—in which a
+
+knowledgeable designee navigates Epic's In-Basket, audit trail, and MyChart
+
+functions while being questioned about Timmi's specific records—is the most direct
+
+and efficient path to the truth.
+
+       B.     The inspection is limited to one patient's records.
+
+       UofL warns of catastrophic HIPAA violations and exposure of "dozens of
+
+uninterested individuals." This is not the inspection Plaintiffs seek. The Notice
+
+requests "live access to all EHRs relating to Thelma ('Timmi') Tinker." Plaintiffs are
+
+not asking to search the records of any other patient. The designee controls the
+
+navigation. If, in demonstrating how the system works, adjacent patient information
+
+would appear on screen, the designee can scroll past it—just as UofL's own staff do
+
+hundreds of times daily without triggering a HIPAA catastrophe. UofL's suggestion
+
+that demonstrating one patient's record on Zoom screen-share will "inevitably"
+
+expose protected information about dozens of patients is unsupported speculation.
+
+       C.     Plaintiffs are open to a reasonable inspection protocol.
+
+       The Sedona Principles identify certain best practices for EHR inspections,
+
+including a documented agreed-upon protocol that protects third-party information
+
+and is narrowly tailored to litigation issues. Plaintiffs are amenable to negotiating
+
+and agreeing to such a protocol. Plaintiffs are not seeking to roam freely through
+
+UofL's server infrastructure. They seek to understand one deceased patient's EHR,
+
+the audit trail associated with it, and how the specific functions of Epic's system
+
+operated with respect to her PET scan result. A reasonable protocol—limiting
+
+navigation to Timmi's records, having screenshots captured contemporaneously as
+
+exhibits, conducted via Zoom so the screen can be monitored—accomplishes the
+
+inspection without the HIPAA apocalypse UofL conjures.
+
+       D.     UofL's cited cases are distinguishable.
+
+       John B. v. Goetz, 531 F.3d 448 (6th Cir. 2008), involved sweeping "mirror
+
+imaging" of computer systems where the connection between the devices and the
+
+claims was "unduly vague or unsubstantiated." That is not this case. Plaintiffs are
+
+not asking to image UofL's servers. They are asking UofL's own designee to navigate
+
+one patient's existing EHR record and explain what the audit data shows. The
+
+connection between Timmi's Epic record and the claims in this lawsuit is about as
+
+direct as any such connection could be.
+
+       Scotts Co. LLC v. Liberty Mut. Ins. Co., 2007 WL 1723509 (S.D. Ohio June
+
+12, 2007), involved a plaintiff who could offer only suspicion that documents were
+
+being withheld. Plaintiffs here have actual evidence: a court order that UofL failed
+
+to honor, a last-minute production that is incomplete, an audit log with missing
+
+fields, and suspicious access patterns that raise specific, articulable questions about
+
+what happened to Timmi's scan result. That is good cause—not mere suspicion.
+
+V.     COMBINING THE CR 30.02(6) DEPOSITION WITH THE INSPECTION
+       IS MORE EFFICIENT, NOT LESS.
+
+       UofL argues that combining the deposition with the inspection is procedurally
+
+improper and "conflates two distinct discovery mechanisms." But CR 30.02(5)
+
+expressly contemplates exactly this combination. And there is an obvious practical
+
+reason why: a designee who can explain how the system works while demonstrating
+
+it is more informative than separate witnesses testifying in the abstract.
+
+       UofL's witnesses are the persons best positioned to navigate the system. Their
+
+testimony will be most meaningful if they can show as well as tell. A bifurcated
+
+approach—testimony first, inspection later with different personnel—is more
+
+burdensome, not less, and creates the risk of inconsistency between what the
+
+corporate designee says and what the system shows.
+
+       If the Court has concerns about combining the two mechanisms, Plaintiffs
+
+respectfully request at a minimum that the corporate deposition proceed on all
+
+eighteen topics—including live demonstration of MyChart, PACS, In-Basket, and
+
+audit trail navigation—with any standalone CR 34 inspection to follow promptly
+
+thereafter.
+
+VI.    UofL'S CHARACTERIZATION OF THE NOTICE'S TIMING IS
+       MISLEADING.
+
+       UofL opens its motion with the observation that the Notice was served "on
+
+Friday evening of Memorial Day weekend" to suggest that Plaintiffs were acting in
+
+bad faith. But the Notice expressly stated that Plaintiffs were open to adjusting the
+
+date. What UofL omits is that UofL created this compressed timeline. UofL ignored
+
+Plaintiffs' discovery from April 13 through May 13. UofL then promised to produce
+
+"by end of week" on May 18, and failed to do so. The Court had to order compliance.
+
+UofL produced an inadequate production at 3:50 p.m. on the last possible day.
+
+       Plaintiffs have expert disclosures due June 3, 2026 and a trial date of
+
+November 30, 2026. They were not creating "tactical pressure." They were attempting
+
+to salvage a discovery schedule that UofL's own dilatory conduct had compressed.
+
+       The appropriate response to that context is not to reward UofL's delay by
+
+foreclosing Plaintiffs' ability to conduct the discovery they need. It is to ensure the
+
+discovery goes forward promptly, as the court-ordered discovery schedule requires.
+
+                                    CONCLUSION
+
+       For the foregoing reasons, Plaintiffs respectfully request that this Court:
+
+       1.     DENY the UofL Defendants' Motion for Protective Order in its entirety;
+
+       2.     Order the UofL Defendants to produce appropriate designees prepared
+
+to testify on all eighteen topics in Plaintiffs' CR 30.02(6) Notice;
+
+       3.     Order the UofL Defendants to make available the live EHR access
+
+requested in connection with the Notice, subject to the parties' agreement on a
+
+reasonable inspection protocol, which Plaintiffs are prepared to negotiate in good
+
+faith; and
+
+       4.     Order the UofL Defendants to complete any outstanding production
+
+obligations from Plaintiffs' 4/13/2026 discovery that were not satisfied by their
+
+May 29, 2026 production.
+
+       In the alternative, should the Court find any aspect of the Notice requires
+
+narrowing or bifurcation, Plaintiffs respectfully request the opportunity to be heard
+
+at the hearing set for June 1, 2026, and ask that the Court deny protection as to
+
+those topics and as to the live inspection for the reasons stated herein.
+
+                                         Respectfully submitted,
+
+                                         /s/ _______________________
+                                         Ann B. Oldfather (KBA 52553)
+                                         Sheldon L. Haden (KBA 88876)
+                                         Michael R. Hasken (KBA 94492)
+                                         Chancellor R. Peterson (KBA 101018)
+                                         OLDFATHER LAW FIRM, PLLC
+                                         1330 South Third Street
+                                         Louisville, KY 40208
+                                         (502) 637-7200
+                                         aoldfather@oldfather.com
+                                         shaden@oldfather.com
+                                         mhasken@oldfather.com
+                                         cpeterson@oldfather.com
+                                         Counsel for Plaintiffs
+
+
+                            CERTIFICATE OF SERVICE
+
+       The above signature certifies that, on _______ __, 2026, the foregoing was
+
+electronically filed with the Clerk of Court using the KCOJ e-filing system and was
+
+served via email, in accordance with the notice of electronic service, to all counsel of
+
+record.
+
+                                         /s/ _______________________
+                                         Counsel for Plaintiffs
